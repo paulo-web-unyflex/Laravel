@@ -18,6 +18,23 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home', function () {
+    return view('welcome');
+});
+
+
+Route::get('/cursos', function () {
+    return view('welcome');
+});
+
+Route::get('/cursos-agendados', function () {
+    return view('welcome');
+});
+
+Route::get('/sobre', function () {
+    return view('welcome');
+});
+
 
 use App\Http\Controllers\TestController;
 
